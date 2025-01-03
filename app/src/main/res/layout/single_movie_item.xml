@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="movie"
+            type="com.dwipal.practice.androidadvancepracticeapp.model.Movie" />
+    </data>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_image"
+        android:layout_gravity="center"/>
+
+ <ImageView
+        android:id="@+id/imgMovieCover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txtMovieRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_gravity="end|bottom"
+        android:background="#0fa4a6"
+        android:text="@{Double.toString(movie.voteAverage)}"
+        android:layout_below="@+id/txtMovieName"
+        android:textSize="12dp"/>
+
+</androidx.cardview.widget.CardView>
+</layout>

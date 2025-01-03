@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041508280499",
+    "project_id": "fir-demoandroidapp",
+    "storage_bucket": "fir-demoandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041508280499:android:21aeff61d276b4d4c168c6",
+        "android_client_info": {
+          "package_name": "com.dwipal.practice.androidadvancepracticeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQz_1WM2UOOMLr2otQ2_rKhdQc5v3Pu8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
